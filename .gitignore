@@ -1,0 +1,23 @@
+# 認証情報（絶対にコミットしない）
+.env
+*.env
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# 生成データ
+articles/
+charts/
+logs/
+data/
+
+# デバッグ用スクリーンショット
+*.png
+note_error.png
+
+# 一時ファイル
+*.tmp
+*.log
